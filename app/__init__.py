@@ -8,6 +8,7 @@ from flask_mail import Mail
 from flask_simplemde import SimpleMDE
 
 
+
 db = SQLAlchemy()
 bootstrap = Bootstrap()
 login_manager = LoginManager()
@@ -22,8 +23,8 @@ def create_app(config_name):
    app = Flask(__name__)
    # Creating the app configurations
 
-#    app.config.from_object(config_options[config_name])
-   # config_options[config_name].init_app(app)
+   app.config.from_object(config_options[config_name])
+   config_options[config_name].init_app(app)
 
    # Initializing flask extensions
    bootstrap.init_app(app)
@@ -32,17 +33,17 @@ def create_app(config_name):
    mail.init_app(app)
    simple.init_app(app)
 
-#    # Registering the blueprint
-#    from .main import main as main_blueprint
-#    app.register_blueprint(main_blueprint)
+   # Registering the blueprint
+   from .main import main as main_blueprint
+   app.register_blueprint(main_blueprint)
 
-   # setting config
+#    # setting config
 #    from .request import configure_request
 #    configure_request(app)
 
    from .auth import auth as auth_blueprint
    app.register_blueprint(auth_blueprint,url_prefix = '/authenticate')
    # config uploadset
-#    configure_uploads(app,photos)
+   configure_uploads(app,photos)
 
    return app
