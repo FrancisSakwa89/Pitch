@@ -72,5 +72,13 @@ class Comment(UserMixin,db.Model):
         db.session.add(self)
         db.session.commit()        
 
+
+
+class PhotoProfile(db.Model):
+    __tablename__= 'profile_photos'
+
+    id = db.Column(db.Integer,primary_key = True)
+    pic_path = db.Column(db.String())
+    user_id = db.Column(db.Integer,db.ForeignKey("users.id"))
    
 
