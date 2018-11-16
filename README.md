@@ -5,7 +5,7 @@
 ## By **[Francis Sakwa](https://github.com/FrancisSakwa89)**
 
 ## Description
-[Pitch Pool](https://pitchtime.herokuapp.com/) is a web application that allows users to submit a pitch. Also, other users are allowed to vote on submitted pitches and leave comments to give their feedback on the pitches. For a user to submit a pitch, vote on a pitch or give feedback on a pitch they need to have an account. <br>
+This is a web application that allows users to submit a pitch. Also, other users are allowed to vote on submitted pitches and leave comments to give their feedback on the pitches. For a user to submit a pitch, vote on a pitch or give feedback on a pitch they need to have an account. <br>
 
 The pitches are organized by categories. Examples of categories: <br> 
 - pickup lines
