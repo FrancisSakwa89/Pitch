@@ -3,3 +3,7 @@
     font-family: 'Cookie', cursive;
     font-size: 30px;
 }
+
+nav a:hoover{
+    background-color: blue;
+}

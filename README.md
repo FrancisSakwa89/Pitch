@@ -39,6 +39,9 @@ As a user I would like:
 
 _*This requires internet connection._*
 
+# Running Tests
+* python3.6 manage.py test
+
 ## Known Bugs
 
 - Unable to make vote counts
