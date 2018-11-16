@@ -1,11 +1,13 @@
 {% extends 'base.html'%}
 
 {% block content %}
-<div class="container">
+<div class="container" style="background-color: background: #00b09b; /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #00b09b, #96c93d); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #00b09b, #96c93d);">
 <div class="row">
 <!-- displaying  Username-->
   <div class="col-md-4">
-    <h3> {{user.username| capitalize}} </h3>
+    <h3 style="text-decoration-style: underline;"> {{user.username| capitalize}} </h3>
 
     <!--Displaying user bio-->
     {% if user.bio %}
@@ -14,7 +16,7 @@
       <p> {{user.username| capitalize}} has no bio </p>
     {% endif %}
     {% if user == current_user %}
-    <a href="{{url_for('main.update_profile',uname=user.username)}}">Edit profile</a>
+    <a href="{{url_for('main.update_profile',uname=user.username)}}" style="color: green">Edit profile</a>
 {% endif %}
   </div>
 
@@ -30,8 +32,8 @@
   {% if user == current_user %}
   <form  action="{{url_for('main.update_pic',uname=user.username)}}" method="post" enctype = "multipart/form-data">
 
-    <input type="file"  name="photo"  required>
-    <input type="submit">
+    <input type="file"  name="photo"  required  style="background-color: darkgreen">
+    <input type="submit" style="background-color: gold">
   </form>
     {% endif %}
 </div>

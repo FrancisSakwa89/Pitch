@@ -44,7 +44,7 @@ def register():
         db.session.add(user)
         db.session.commit()
 
-        mail_message("WELCOME TO PITCH POOL","email/welcome_user",user.email,user=user)
+        mail_message("WELCOME TO ONE-MINUTE PITCH","email/welcome_user",user.email,user=user)
 
         return redirect(url_for('auth.login'))
         title = "New Account"

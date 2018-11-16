@@ -20,7 +20,7 @@
               </nav>
         <h1 class="text-center">Pick up pitches</h1>
         <hr>
-
+        
         {% if pitches_interview %}
 
            {% for pitch in pitches_interview %}
@@ -37,13 +37,13 @@
            
         
            {% endfor %}
-           <a class="btn btn-success btn-lg text-center" href="/new_pitch"> Add a new pitch</a>
+           <a class="btn btn-success btn-lg text-center" href="/new_pitch"> Time to pitch</a>
 
         {% else%}
             <h3 class="text-center">No pitches yet</h3>
             
 
-            <a class="btn btn-success btn-lg text-center" href="/new_pitch"> Add a new pitch</a>
+            <a class="btn btn-success btn-lg text-center" href="/new_pitch"> Time to pitch</a>
         {% endif %}
 
     </div> 
