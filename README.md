@@ -1,5 +1,5 @@
 # PITCH Game
-## An application that allows users to make pitches and get feedback on them. 9/9/2018
+## This is an application that allows users to make pitches,comment and view the pitches.Done on 16/11/2018
 
 
 ## By **[Francis Sakwa](https://github.com/FrancisSakwa89)**
