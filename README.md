@@ -22,26 +22,26 @@ As a user I would like:
 * to vote on the pitch and give it a downvote or upvote
 
 ## Specifications
-| Behavior        | Input           | Outcome  |
+| Behavior        | Input           | Output  |
 | ------------- |:-------------:| -----:|
-| Register to be a user | Your email : jon@doe.com <br> Username : jon101 <br> Password : doe1 | New user is registered |
-| Log in | Your email : jon@doe.com <br> Password : doe1 | Logged in |
+| Click On Register | Your email : franco@gmail.com.com <br> Username : franco <br> Password : francis | New user is registered |
+| Sign in/Log in | Your email : franco@gmail.com <br> Password : francis | Signed in |
 | Display pitch categories | Categories display on navbar | List of various pitch categories |
-| See pitches from selected category | **Click** a category | Directed to a page with a list of pitches from the selected category |
-| Create a pitch | **Click Add a pitch** | An authenticated user is directed to a page with a form where the user can create and submit a pitch |
-| Comment on a pitch | **Click Comment** | An authenticated user is directed to a page with a form where the user can create and submit a comment on a pitch |
+| See pitches from selected category | **Click** a category | Navigates to the selected category |
+| Create a pitch | **Click On Time To pitch** | The authenticated user is navigated to the pitch form to fill in |
+| Comment on a pitch | **Click Comment** | User navigates to the comment form  |
 
 ## Setup/Installation Requirements
 
 * Click [Pitch](https://pitch.herokuapp.com/) <br/>
   or <br/>
-* Copy [Pitch ](https://pitch.herokuapp.com/) and  Paste the link on your prefered browerser
+* Copy [Pitch ](https://pitch.herokuapp.com/) and  Paste the link on your prefered browser
 
-This requires internet connection.
+_*This requires internet connection._*
 
 ## Known Bugs
 
-- Vote count unavailable
+- Unable to make vote counts
 
 
 ## Technologies Used
@@ -54,4 +54,4 @@ This requires internet connection.
 
 ### License
 
-MIT (c) 2017 **[Jeff Musa](https://github.com/FancisSakwa89)**
+[MIT License](https://choosealicense.com/licenses/mit/#) copy;2018 [Francis Sakwa](https://github.com/FrancisSakwa89/)
