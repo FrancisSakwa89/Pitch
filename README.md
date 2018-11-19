@@ -5,7 +5,7 @@
 ## By **[Francis Sakwa](https://github.com/FrancisSakwa89)**
 
 ## Description
-This is a web application that allows users to submit a pitch. Also, other users are allowed to vote on submitted pitches and leave comments to give their feedback on the pitches. For a user to submit a pitch, vote on a pitch or give feedback on a pitch they need to have an account. <br>
+ [pitch](https://pitch-5.herokuapp.com/)This is a web application that allows users to submit a pitch. Also, other users are allowed to vote on submitted pitches and leave comments to give their feedback on the pitches. For a user to submit a pitch, vote on a pitch or give feedback on a pitch they need to have an account. <br>
 
 The pitches are organized by categories. Examples of categories: <br> 
 - pickup lines
@@ -33,9 +33,9 @@ As a user I would like:
 
 ## Setup/Installation Requirements
 
-* Click [Pitch](https://pitch.herokuapp.com/) <br/>
+* Click [Pitch](https://pitch-5.herokuapp.com/) <br/>
   or <br/>
-* Copy [Pitch ](https://pitch.herokuapp.com/) and  Paste the link on your prefered browser
+* Copy [Pitch ](https://pitch-5.herokuapp.com/) and  Paste the link on your prefered browser
 
 _*This requires internet connection._*
 
